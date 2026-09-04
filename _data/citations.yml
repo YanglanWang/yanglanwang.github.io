@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-24'
+  last_updated: '2026-09-04'
 papers:
   d3vcZosAAAAJ:2osOgNQ5qMEC:
     citations: 0
@@ -9,6 +9,10 @@ papers:
     citations: 1
     title: Modeling and Optimization of Traffic Evacuation Using Optimal Control Model
     year: '2025'
+  d3vcZosAAAAJ:IjCSPb-OGe4C:
+    citations: 0
+    title: "Multiscale Wildfire\u2010Evacuation Modeling: Assessing Differential Access to Safe Egress in Marin County, CA"
+    year: '2026'
   d3vcZosAAAAJ:UeHWp8X0CEIC:
     citations: 0
     title: Investigating Evacuation Strategies for Wildfire-Prone Communities Considering Social, Communicational and Traffic Network Interdependencies
