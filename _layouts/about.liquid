@@ -78,12 +78,21 @@ layout: default
 
 
 
+{% comment %}
+  Visitor map, disabled 2026-09-24: clustrmaps.com was shut down and its
+  domain now resolves to 127.0.0.1, so this image can never load. The
+  service moved to mapmyvisitors.com, but the map code below is not valid
+  there ("Incorrect map code"). To restore: register at mapmyvisitors.com,
+  then swap in the new code and use https://mapmyvisitors.com/map.png.
+{% endcomment %}
+{% comment %}
 <div style="margin-top:1rem;margin-bottom:1rem;text-align:center;">
   <a href="https://clustrmaps.com/site/1c9i8" title="Visit tracker">
     <img src="https://www.clustrmaps.com/map_v2.png?cl=ffffff&w=600&t=n&d=Y7O3yWZwB6d-BMMt9e-oQFB8hcNOtETdnKpx5PvJtA0" 
     style="max-width:400px;width:100%;">
   </a>
 </div>
+{% endcomment %}
 
     <!-- Social -->
     {% if page.social %}

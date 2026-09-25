@@ -46,6 +46,15 @@
       .abbr {
         margin-bottom: 0.5rem;
 
+        // Preview thumbnail ~30% wider than Bootstrap's col-sm-2 (16.667%).
+        // Bootstrap 4 sets both flex-basis and max-width, so override both.
+        // The 15px gutters are fixed, so the column grows slightly more than
+        // the image does; 20.5% lands the image near +30% across breakpoints.
+        @media (min-width: 576px) {
+          flex: 0 0 20.5%;
+          max-width: 20.5%;
+        }
+
         abbr {
           display: inline-block;
           background-color: var(--global-theme-color);
